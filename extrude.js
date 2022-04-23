@@ -268,7 +268,7 @@ components.forEach(c => {
       // actual vertex set.
       UDB.Map.drawLines([endpoints[0].position, extruded[0]]);
       UDB.Map.stitchGeometry();
-      UDB.Map.drawLines([extruded[0], endpoints[1].vposition]);
+      UDB.Map.drawLines([extruded[0], endpoints[1].position]);
       UDB.Map.stitchGeometry();
     }
   } else {
